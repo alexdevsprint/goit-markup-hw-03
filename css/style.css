@@ -30,6 +30,14 @@ ul {
   color: #f4f4fd;
 }
 
+.section {
+  padding: 120px 0;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+}
+/* -----------Header------------ */
 .navigation-item {
   font-size: 16px;
   font-weight: 500;
@@ -70,6 +78,7 @@ ul {
   color: #404bbf;
 }
 
+/* ---------Section 1----------- */
 .solution {
   background-color: #2e2f42;
 }
@@ -100,6 +109,7 @@ ul {
   background-color: #404bbf;
 }
 
+/* ---------Section 2----------- */
 .strategy-name {
   font-size: 20px;
   font-weight: 500;
@@ -114,6 +124,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
+/* ---------Section 3----------- */
 .our-team {
   background-color: #f4f4fd;
 }
@@ -142,7 +153,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+/* ---------Section 4----------- */
 .our-portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -163,7 +174,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+/* ---------Footer----------- */
 .footer {
   background-color: #2e2f42;
 }
