@@ -20,12 +20,13 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #4d5ae5;  
 }
 
 .logo-part {
   color: #2e2f42;
 }
+
 .logo-part-footer {
   color: #f4f4fd;
 }
@@ -33,11 +34,19 @@ ul {
 .section {
   padding: 120px 0;
 }
+
 .container {
   max-width: 1158px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* -----------Header------------ */
+.navigation {
+  display: flex;
+  gap: 40px;
+  padding: 25.5px 156px;
+}
+
 .navigation-item {
   font-size: 16px;
   font-weight: 500;
@@ -99,6 +108,9 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;  
 }
 
 .solution-button:hover {
@@ -110,6 +122,9 @@ ul {
 }
 
 /* ---------Section 2----------- */
+.strategy ul {
+  display: flex;
+}
 .strategy-name {
   font-size: 20px;
   font-weight: 500;
@@ -129,6 +144,11 @@ ul {
   background-color: #f4f4fd;
 }
 
+.our-team ul {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -146,14 +166,22 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .our-team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* ---------Section 4----------- */
+.our-portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .our-portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -177,6 +205,7 @@ ul {
 /* ---------Footer----------- */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 156px;
 }
 
 .footer-text {
