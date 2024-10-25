@@ -4,6 +4,10 @@ body {
   background-color: #fff;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -20,15 +24,21 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;  
+  color: #4d5ae5;
 }
 
-.logo-part {
+.logo-header {
+  margin-right: 76px;
+}
+
+.logo-part-header {
   color: #2e2f42;
 }
 
 .logo-part-footer {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .section {
@@ -37,10 +47,20 @@ ul {
 
 .container {
   max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 /* -----------Header------------ */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+  display: flex;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+}
 .navigation {
   display: flex;
   gap: 40px;
@@ -53,6 +73,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-item:hover {
@@ -70,6 +91,11 @@ ul {
 
 .contacts {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-item {
@@ -90,6 +116,7 @@ ul {
 /* ---------Section 1----------- */
 .solution {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .solution-name {
@@ -98,6 +125,9 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solution-button {
@@ -110,7 +140,10 @@ ul {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
-  border: none;  
+  border: none;
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
 }
 
 .solution-button:hover {
@@ -122,15 +155,26 @@ ul {
 }
 
 /* ---------Section 2----------- */
-.strategy ul {
-  display: flex;
+.visually-hidden {
+  display: none;
 }
+
+.strategy-list {
+  display: flex;
+  gap: 24px;
+}
+
+.strategy-list-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .strategy-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .strategy-description {
@@ -144,7 +188,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.our-team ul {
+.our-team-list {
   display: flex;
   gap: 24px;
 }
@@ -155,10 +199,17 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team-item {
   background-color: #fff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.our-team-info {
+  padding: 32px 0;
 }
 
 .our-team-name {
@@ -167,6 +218,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team-role {
@@ -176,10 +228,14 @@ ul {
   text-align: center;
 }
 /* ---------Section 4----------- */
-.our-portfolio ul {
+.our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .our-portfolio-title {
@@ -188,6 +244,13 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  margin-bottom: 8px;
+}
+.our-portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .our-portfolio-name {
@@ -205,7 +268,7 @@ ul {
 /* ---------Footer----------- */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -213,4 +276,5 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
