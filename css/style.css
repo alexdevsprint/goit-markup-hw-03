@@ -38,6 +38,7 @@ a {
 
 .logo-header {
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-footer {
   display: inline-block;
@@ -61,22 +62,24 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* -----------Header------------ */
+/* #region Header */
 .header {
-  border-bottom: 1px solid #e7e9fc; 
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
-  display: flex;   
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-box {
-  display: flex; 
+  display: flex;
 }
 
 .navigation {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation-item {
@@ -84,7 +87,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42; 
+  color: #2e2f42;
 }
 
 .navigation-item:hover {
@@ -107,6 +110,7 @@ a {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts-item {
@@ -123,8 +127,8 @@ a {
 .contacts-item:focus {
   color: #404bbf;
 }
-
-/* ---------Section 1----------- */
+/* #endregion */
+/* #region Section 1 */
 .solution {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -165,8 +169,8 @@ a {
 .solution-button:focus {
   background-color: #404bbf;
 }
-
-/* ---------Section 2----------- */
+/* #endregion */
+/* #region Section 2 */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
@@ -203,8 +207,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/* ---------Section 3----------- */
+/* #endregion */
+/* #region Section 3 */
 .our-team {
   background-color: #f4f4fd;
 }
@@ -248,7 +252,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
-/* ---------Section 4----------- */
+/* #endregion */
+/* #region Section 4 */
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -286,7 +291,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* ---------Footer----------- */
+/* #endregion */
+/* #region Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -299,3 +305,4 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+/* #endregion */
